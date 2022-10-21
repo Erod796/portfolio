@@ -1,0 +1,43 @@
+/* Wire Frame: TODO: Delete later */
+header, main, footer {
+    border: 1px solid gray;
+}
+
+/* Reset */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+/* Element selectors */ 
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, tahoma, sans-serif;
+    height: 100vh;
+    
+}
+
+Header { 
+    background: url('./../images/240_F_276080724_hltnCyDjcqAyRtLzDYo3T2jXbBtCD7fl.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: Center;
+    justify-content: space-between;
+}
+    
+header, main, footer {
+    padding: 1.5rem; 
+}
+main {
+    flex-grow: 1;
+}
+
+.mt {
+    margin-top: .75rem;
+}
+.pt {
+    padding-top: 1.5rem;
+}
+
+/* Classes */
